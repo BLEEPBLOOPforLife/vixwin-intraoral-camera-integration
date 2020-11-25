@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net45</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Authors>Brian Mak</Authors>
+		<Company />
+		<Product>VixWin Intraoral Camera Integration</Product>
+		<Copyright>Copyright (c) 2020 Brian Mak. All rights reserved.</Copyright>
+		<ApplicationIcon>tray_icon.ico</ApplicationIcon>
+		<PackageId>VixWinIntraoralCameraIntegration</PackageId>
+		<Description>VixWin Intraoral Camera Integration</Description>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Accord.Controls.Imaging" Version="3.8.0" />
+		<PackageReference Include="Accord.Video.DirectShow" Version="3.8.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="System.Windows" />
+		<Reference Include="System.Windows.Forms" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="tray_icon.ico">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
