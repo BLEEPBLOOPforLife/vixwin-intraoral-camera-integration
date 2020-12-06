@@ -36,6 +36,9 @@
 		<None Update="LICENSE.txt">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+		<None Update="README.md">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 		<None Update="ThirdPartyLicenses\Accord.NET_License.txt">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
