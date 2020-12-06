@@ -33,10 +33,11 @@ namespace VixWinIntraoralCameraIntegration
 		}
 
 		/// <summary>
-		/// Exits the program with a confirmation dialog.
+		/// Exits the program.
 		/// </summary>
 		public void Exit( object sender, EventArgs e )
 		{
+			TrayIcon.Current.Dispose( );
 			Application.Exit( );
 		}
 
