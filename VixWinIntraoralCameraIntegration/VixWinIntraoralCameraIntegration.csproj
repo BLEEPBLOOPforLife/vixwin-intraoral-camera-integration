@@ -21,8 +21,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Accord.Controls.Imaging" Version="3.8.0" />
-		<PackageReference Include="Accord.Video.DirectShow" Version="3.8.0" />
+		<PackageReference Include="Accord.Controls.Imaging"
+						  Version="3.8.0" />
+		<PackageReference Include="Accord.Video.DirectShow"
+						  Version="3.8.0" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -31,6 +33,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Update="LICENSE.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="ThirdPartyLicenses\Accord.NET_License.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 		<None Update="tray_icon.ico">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
