@@ -3,7 +3,7 @@ A software used to integrate intraoral cameras with VixWin better. Has intraoral
 
 **Donate**
 
-If you liked this addon, please consider donating! Any amount is much appreciated.
+If you liked this program, please consider donating! Any amount is much appreciated.
 
 https://paypal.me/brmak
 
