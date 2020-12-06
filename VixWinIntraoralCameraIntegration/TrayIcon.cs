@@ -8,7 +8,7 @@ namespace VixWinIntraoralCameraIntegration
 	/// <summary>
 	/// The tray icon class.
 	/// </summary>
-	public class TrayIcon
+	public class TrayIcon : IDisposable
 	{
 		/// <summary>
 		/// Gets the current instance of the tray icon.
@@ -77,6 +77,14 @@ namespace VixWinIntraoralCameraIntegration
 			trayItems.Add( selectWebcamMenu );
 			trayItems.Add( new ToolStripSeparator( ) );
 			trayItems.Add( "Exit", null, App.Current.Exit );
+		}
+
+		/// <summary>
+		/// Disposes of the tray icon.
+		/// </summary>
+		public void Dispose( )
+		{
+			trayIconMenu.Dispose( );
 		}
 	}
 }
