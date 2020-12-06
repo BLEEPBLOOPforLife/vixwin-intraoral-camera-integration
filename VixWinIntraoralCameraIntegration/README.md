@@ -7,6 +7,10 @@ If you liked this program, please consider donating! Any amount is much apprecia
 
 https://paypal.me/brmak
 
+**Download**
+
+To download binaries for this program, go [here](https://github.com/BLEEPBLOOPforLife/vixwin-intraoral-camera-integration/releases).
+
 **Install Instructions**
 
 1. Run the installer.
