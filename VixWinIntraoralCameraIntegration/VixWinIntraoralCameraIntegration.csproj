@@ -7,11 +7,12 @@
 		<Authors>Brian Mak</Authors>
 		<Company />
 		<Product>VixWin Intraoral Camera Integration</Product>
-		<Copyright>Copyright (c) 2020 Brian Mak. All rights reserved.</Copyright>
+		<Copyright>Copyright (c) 2021 Brian Mak. All rights reserved.</Copyright>
 		<ApplicationIcon>tray_icon.ico</ApplicationIcon>
 		<PackageId>VixWinIntraoralCameraIntegration</PackageId>
 		<Description>VixWin Intraoral Camera Integration</Description>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -21,10 +22,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Accord.Controls.Imaging"
-						  Version="3.8.0" />
-		<PackageReference Include="Accord.Video.DirectShow"
-						  Version="3.8.0" />
+		<PackageReference Include="Accord.Controls.Imaging" Version="3.8.0" />
+		<PackageReference Include="Accord.Video.DirectShow" Version="3.8.0" />
 	</ItemGroup>
 
 	<ItemGroup>
