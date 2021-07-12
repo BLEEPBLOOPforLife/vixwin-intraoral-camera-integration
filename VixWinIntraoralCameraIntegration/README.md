@@ -3,7 +3,7 @@ A program used to integrate intraoral cameras with VixWin better. Has intraoral 
 
 ## Download
 
-To download binaries for this program, go [here](https://github.com/BLEEPBLOOPforLife/vixwin-intraoral-camera-integration/releases).
+To download binaries for this program, go [here](https://github.com/eggroll-bot/vixwin-intraoral-camera-integration/releases).
 
 ## Install Instructions
 
